@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Đăng ký</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 offset-md-3">
+				<form method="post" action="Signup" name="registrationForm"> 
+					<h1 class="text-center">Register</h1>
+					<div class="form-group">
+						<label for="firstname">First Name*</label>
+						<input type="text" class="form-control" id="firstname" required>
+					</div>
+					<div class="form-group">
+						<label for="lastname">Last Name*</label>
+						<input type="text" class="form-control" id="lastname" required>
+					</div>
+					<div class="form-group">
+						<label for="username">UserName*</label>
+						<input type="text" class="form-control" id="Name" name="Name" required>
+					</div>
+					<div class="form-group">
+						<label for="email">E-mail*</label>
+						<input type="email" class="form-control" id="Email" name="Email" required>
+					</div>
+					<div class="form-group">
+						<label for="password">Password*</label>
+						<input type="password" class="form-control" id="password" name="mkhau" required>
+					</div>
+					<div class="form-group">
+						<label for="facebook">Facebook</label>
+						<input type="text" class="form-control" id="Facebook" name="Facebook">
+						<small class="form-text text-muted">Enter your Facebook profile URL</small>
+					</div>
+					<div class="form-group">
+						<label for="shortbio">Short Bio</label>
+						<input type="text" class="form-control" id="ShortBio" name="ShortBio">
+						<small class="form-text text-muted">Share a little information about yourself.</small>
+					</div>
+					<button type="submit" class="btn btn-primary btn-block">Submit</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
